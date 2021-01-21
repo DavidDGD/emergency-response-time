@@ -1,0 +1,10 @@
+venv/*
+tmp.py
+
+# Datasets
+Model/Data/climb.csv
+Model/Data/hor_climb.csv
+Model/Data/main.csv
+Model/Data/results.csv
+Model/Data/export_20201110_170438.csv
+Model/Data/fire_stations_with_statistics.csv
