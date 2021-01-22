@@ -11,7 +11,6 @@ def get_firestation_statistics():
     for i, station in stations.iterrows():
         subdf = df.loc[df['firestation_name'] == station['LOC_NAAM']]
         if (len(subdf) <= 0):
-            print(station['LOC_NAAM'] + 'not in dataset')
             continue
 
         mean_response_time = subdf['Response Time (s)'].mean()

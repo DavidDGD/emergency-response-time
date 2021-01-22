@@ -33,7 +33,7 @@ def get_station(lat, lon):
         if boolean_point_in_polygon(point, polygon):
             return name
 
-    return 'no_station'
+    return 'no_station' # @TODO: add code to fix missing fire stations
 
 
 # def is_inside_polygon(dataset):

@@ -50,7 +50,7 @@ app.title = "Response Time 🔥"
 server = app.server
 cache = Cache(app.server, config={
     'CACHE_TYPE': 'filesystem',
-    'CACHE_DIR': './cache'
+    'CACHE_DIR': './Dashboard/cache'
 })
 
 app.layout = html.Div(children=[
