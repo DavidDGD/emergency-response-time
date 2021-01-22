@@ -1,0 +1,17 @@
+name,lat,lon,mean_response_time,response_time_stdev,max_response_time,max_response_time_address,formatted_mean_resp,formatted_stdev,formatted_max_time
+Pieter,52.348826,4.843666000000002,559.0,108.6,1125.9,Parnassusweg 300  ,9m 2s,1m 37s,18m 53s
+Anton,52.307339,4.973228,645.0,129.4,1183.7,Bert Haanstrakade 1072  ,10m 59s,2m 26s,19m 39s
+Dirk,52.358052,4.88592,478.2,110.1,1221.6,Europaboulevard 2 B ,7m 10s,1m 6s,20m 37s
+Hendrik,52.37258,4.8756639999999996,432.2,69.8,1043.3,Pontsteiger 136  ,7m 12s,1m 47s,17m 21s
+IJsbrand,52.406318,4.889575,494.8,99.2,1429.8,Badhuiskade 17  ,8m 50s,1m 10s,23m 46s
+Nico,52.370257,4.909566000000001,532.1,84.2,952.5,Van Reedestraat 167  ,8m 4s,1m 11s,15m 29s
+Osdorp,52.36659,4.802086,507.0,89.9,869.8,Van de Sande Bakhuijzenstraat 4  ,8m 0s,1m 54s,14m 49s
+Teunis,52.384607,4.8633169999999994,514.9,114.3,1026.1,Danzigerkade 165  ,8m 53s,1m 18s,17m 4s
+Victor,52.360495,4.929174,474.7,100.1,950.8,Buitenkerkerweg 7 A ,7m 43s,1m 6s,15m 47s
+Willem,52.348875,4.9147739999999995,509.4,116.9,1358.0,Amstelplein 1  ,8m 26s,1m 52s,22m 2s
+Zebra,52.396243,4.95483,506.0,147.7,1744.9,Uitdammerdijk 18  ,8m 58s,2m 39s,29m 51s
+GBA/GALWIN,52.396995000000004,4.798534,619.5,144.7,1145.4,Radarweg 29 A 23,10m 28s,2m 42s,19m 23s
+Diemen,52.341184999999996,4.964647,549.9,23.7,603.0,Esplanade de Meer 2  ,9m 56s,0m 42s,10m 59s
+Duivendrecht,52.332304,4.940402,489.5,81.2,788.2,H.J.E. Wenckebachweg 200  ,8m 29s,1m 15s,13m 13s
+Amstelveen,52.301709,4.881835,669.9,47.0,911.5,Arent Janszoon Ernststraat 577  ,11m 55s,0m 58s,15m 32s
+Driemond,52.306985,5.019353,365.9,53.8,527.7,Lange Stammerdijk 26  ,6m 53s,0m 51s,8m 45s

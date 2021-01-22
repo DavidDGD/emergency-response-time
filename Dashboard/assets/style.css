@@ -1,0 +1,708 @@
+﻿/* Grid –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.cbbg {
+    fill: #2b2b2b !important;
+    fill-opacity: 0.9 !important;
+}
+
+.ycbcoloraxistick text {
+    fill: #d8d8d8 !important;
+}
+
+.ycbcoloraxistitle {
+    fill: #d8d8d8 !important;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .column, .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+  /* For devices larger than 400px */
+  @media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+   }
+  }
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+    .container {
+        width: 80%;
+   }
+    .column, .columns {
+        margin-left: 3%;
+   }
+    .column:first-child, .columns:first-child {
+        margin-left: 0;
+   }
+    .one.column, .one.columns {
+        width: 4.66666666667%;
+   }
+    .two.columns {
+        width: 13.3333333333%;
+   }
+    .three.columns {
+        width: 22%;
+   }
+    .four.columns {
+        width: 30.6666666667%;
+   }
+    .five.columns {
+        width: 39.3333333333%;
+   }
+    .six.columns {
+        width: 46%;
+   }
+    .seven.columns {
+        width: 56.6666666667%;
+   }
+    .eight.columns {
+        width: 63.3333333333%;
+   }
+    .nine.columns {
+        width: 74.0%;
+   }
+    .ten.columns {
+        width: 82.6666666667%;
+   }
+    .eleven.columns {
+        width: 91.3333333333%;
+   }
+    .twelve.columns {
+        width: 100%;
+        margin-left: 0;
+   }
+    .one-third.column {
+        width: 30.6666666667%;
+   }
+    .two-thirds.column {
+        width: 65.3333333333%;
+   }
+    .one-half.column {
+        width: 48%;
+   }
+   /* Offsets */
+    .offset-by-one.column, .offset-by-one.columns {
+        margin-left: 8.66666666667%;
+   }
+    .offset-by-two.column, .offset-by-two.columns {
+        margin-left: 17.3333333333%;
+   }
+    .offset-by-three.column, .offset-by-three.columns {
+        margin-left: 23%;
+   }
+    .offset-by-four.column, .offset-by-four.columns {
+        margin-left: 34.333333333%;
+   }
+    .offset-by-five.column, .offset-by-five.columns {
+        margin-left: 43.3333333333%;
+   }
+    .offset-by-six.column, .offset-by-six.columns {
+        margin-left: 52%;
+   }
+    .offset-by-seven.column, .offset-by-seven.columns {
+        margin-left: 60.6666666667%;
+   }
+    .offset-by-eight.column, .offset-by-eight.columns {
+        margin-left: 66.333333333%;
+   }
+    .offset-by-nine.column, .offset-by-nine.columns {
+        margin-left: 75.0%;
+   }
+    .offset-by-ten.column, .offset-by-ten.columns {
+        margin-left: 86.6666666667%;
+   }
+    .offset-by-eleven.column, .offset-by-eleven.columns {
+        margin-left: 95.3333333333%;
+   }
+    .offset-by-one-third.column, .offset-by-one-third.columns {
+        margin-left: 34.6666666667%;
+   }
+    .offset-by-two-thirds.column, .offset-by-two-thirds.columns {
+        margin-left: 69.3333333333%;
+   }
+    .offset-by-one-half.column, .offset-by-one-half.columns {
+        margin-left: 52%;
+   }
+  }
+  /* Base Styles –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* NOTE html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px :) */
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.5em;
+   /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: Arial;
+    color: #d8d8d8;
+  }
+  /* Typography –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+  p {
+    margin-top: 0;
+    text-align: justify;
+  }
+  
+  .formula1{
+      display: inline-block;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 0px;
+  }
+  .formula2{
+      display: inline-block;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 0px;
+  }
+  /* Blockquotes –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  blockquote {
+    border-left: 4px lightgrey solid;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+  }
+  /* Links –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  a {
+    color: #1EAEDB;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  a:hover {
+    color: #0FA0CE;
+  }
+  /* Buttons –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    /*height: 30px;*/
+    color: #d8d8d8;
+    /*padding: 0 5px;*/
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .button:enabled:hover, button:enabled:hover, input[type="submit"]:enabled:hover, input[type="reset"]:enabled:hover, input[type="button"]:enabled:hover, .button:enabled:focus, button:enabled:focus, input[type="submit"]:enabled:focus, input[type="reset"]:enabled:focus, input[type="button"]:enabled:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+    color: #FFF;
+    background-color: #1B2835;
+  }
+  
+  .button:disabled:hover{
+      color: white;
+      cursor: not-allowed;
+  }
+  .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #1B2835;
+    border-color: #33C3F0;
+  }
+  .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #cccccc;
+    border-color: #1EAEDB;
+  }
+  
+  button-checked{
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+  }
+
+
+  /* Removes awkward default styles on some inputs for iOS */
+  input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    height: 25px;
+    color: #d8d8d8 !Important;
+    background-color: #1e1e1e;
+    width: 120px;
+    text-align: center;
+
+  }
+  textarea {
+    min-height: 65px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+  }
+  label, legend {
+    display: block;
+    margin-bottom: 0px;
+  }
+  fieldset {
+    padding: 0;
+    border-width: 0;
+  }
+  input[type="checkbox"]/*, input[type="radio"] */{
+    display: inline;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label > .label-body {
+    display: inline-block;
+    margin-left: .5rem;
+    font-weight: normal;
+  }
+  /* Lists –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  ul {
+    list-style: circle inside;
+
+  }
+  ol {
+    list-style: decimal inside;
+
+  }
+  ol, ul {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  ul ul, ul ol, ol ol, ol ul {
+    margin: 1rem 0 0.75rem 1rem;
+  }
+  
+li {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing:0.5px
+        }
+
+
+.li-new {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing:0.5px;
+  display: inline;
+        }
+        
+.li-new:before {
+  content: " · ";
+  font-weight: 1000;
+  font-size: 15px;
+        }
+
+
+:focus {
+    outline: unset !important;
+}
+
+
+  /* Tables –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+  }
+  th:first-child, td:first-child {
+    padding-left: 0;
+  }
+  th:last-child, td:last-child {
+    padding-right: 0;
+  }
+  /* Spacing –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  button, .button {
+    margin-bottom: 10px;
+  }
+  input, textarea, select, fieldset {
+    margin-bottom: 0rem;
+  }
+  pre, dl, figure, table, form {
+    margin-bottom: 0rem;
+  }
+  p, ul, ol {
+    margin-bottom: 0.75rem;
+  }
+  p {
+      margin-top: 1rem;}
+      
+  .pfilter {
+      margin-top: 20px;
+      margin-bottom: 5px}
+      
+.pwarning {
+  margin-top: 10px;
+  margin-bottom: 5px
+  width: 100%;
+  background-color: #ffe5d9;
+  color: #7F6000;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  font-size:10px;
+}
+      
+  .pfilter-weather {
+      margin-top: 10px;
+      margin-bottom: 5px} 
+ 
+  .pmapcol {
+      margin-top: 50px;
+      margin-bottom: 5px}     
+ 
+  /* Misc –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-left: 15%;
+    margin-right: 15%;
+    opacity: 0.2;
+  }
+  /* Clearing –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* Self Clearing Goodness */
+  .container:after, .row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Media Queries –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* Note: The best way to structure the use of media queries is to create the queries near the relevant code. For example, if you wanted to change the styles for buttons on small devices, paste the mobile query code up in the buttons section and style it there. */
+  /* Larger than mobile */
+  @media (min-width: 400px) {
+  }
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {
+  }
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+  }
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+  }
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {
+  }
+  
+  
+  /* Custom App CSS Below --------------------------------- */
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Main Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+  background-color: #2b2b2b;
+  color: #d8d8d8;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+font-family: "Arial";
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  text-align: center;
+  font-size: xxx-large;
+  margin-bottom: 0rem;
+  
+
+} h2, h3, h4, h5 {
+  font-family: "Arial";
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  font-size: x-large;
+  padding-left: 12px;
+}
+p {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 12px;
+  line-height: 25px;
+}
+a {
+  text-decoration: none;
+}
+.bg-grey{
+  background-color: #31302F;
+}
+.text-padding{
+  padding: 5px;
+}
+
+summary[style]{
+    font-size:16px;
+}
+/* Graph Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.div-for-charts{
+  display: flex;
+  flex-direction: column;
+  /*height: 100vh;*/
+  width: 100%;
+}
+#histogram {
+  flex-grow: 1 
+}
+#map-graph {
+  flex-grow: 1 
+}
+.mapboxgl-canvas, .mapboxgl-map {
+  min-width: 100%;
+}
+/* Graph Control Objects ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.div-user-controls {
+  padding-left: 2%;
+  padding-top: 0px;
+}
+
+.div-user-controls2 {
+    padding: 0px 2% 0px 1%;
+ }
+ 
+
+.div-table-export {
+  padding-left: 40px;
+  padding-top: 0px;
+  padding-right: 40px;
+}
+
+.div-for-category {
+  padding-top: 0px;
+  padding-bottom: 12px;
+}
+.div-for-slider {
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  height: 35px;
+  padding-bottom: 12px;
+  margin-left: 8px;
+}
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #722f37;
+  color: white;
+  
+}
+
+#bar-selector .Select-multi-value-wrapper{
+  max-height: 82px;
+  overflow-y: auto;
+  margin: 0px 0px -3px 0px;
+}
+
+.Select-control{
+  border: 0.5px solid #dbdbdb44;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white !important;
+}
+._dash-app-content {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label{
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.summary{
+  font-size: 16px;
+}
+
+
+
+.button-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+
+
+.custom-control-label::after,
+.custom-control-label::before {
+  display: none;
+}
+
+
+.radio-group-labels {
+  border: 1px solid #9c9c9c;
+  border-radius: 30px;
+  font: 16px  Arial;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #1e1e1e;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+.radio-group-labels.radio-group-labels-checked {
+  background-color: #722f37;
+  border: 1px solid #cccccc;
+}
+
+.radio-group-labels:hover {
+  border: 1px solid #cccccc;
+  background-color: #1B2835;
+}
+
+.radio-group-labels:hover:disabled {
+    background: #0007d5;
+    border: 1px solid #0007d5;
+    color: red;
+}
+
+
+
+
+
+
+/* Dropdown Button */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    width: 95%;
+}
+
+.Select-input {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.Select.is-focused:not(.is-open) > .Select-control {
+  border-color: #9c9c9c !important;
+  box-shadow: 0 0 0 0 #9c9c9c !important;
+  background: #9c9c9c !important;
+}
+
+
+.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: #ffffff;
+}
+/*d8d8d8*/
+
+.Select-menu-outer {
+  background-color: #1e1e1e !important;
+
+}
+
+.Select-option {
+ font-size: 16px !important;
+}
+.Select-option:last-child {
+ font-size: 16px !important;
+}
+.Select-option.is-selected {
+ font-size: 16px !important;
+}
+
+
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+	padding-left: 20px !important;
+
+}
+
+
+
+/* For Mobile Phones and small screens ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media only screen and (max-width: 768px) {
+  .four, .eight {
+      min-width: 100%;
+ }
+  h1, h2, h3, p {
+      text-align: center;
+ }
+  body {
+      display: block;
+      margin: 0px;
+      overflow-y: scroll;
+  }
+  .div-for-charts {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+ }
+
+ .div-user-controls {
+    padding: 32px;
+ }
+ 
+ 
+ .side-by-side{
+    display: inline-block;
+    width: 48%;
+  }
+
+   
+ .side-by-side-right{
+    display: inline-block;
+    width: 48%;
+    float:right;
+  }
+  .div-for-charts{
+    margin: 0px;
+  }
+} 
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e !important; 
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
