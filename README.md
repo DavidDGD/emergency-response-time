@@ -4,7 +4,7 @@
 <table>
 <tr>
 <td>
-  A Dashboard using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+  A web application using property data to calculate the time fire emergency services need before the suppression of a fire can start. The dashboard can be used for prioritizing fire safety inspections in the municipality of Amsterdam based on this 'Intervention Time'.
 </td>
 </tr>
 </table>
