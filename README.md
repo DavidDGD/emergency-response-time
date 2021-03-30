@@ -13,5 +13,5 @@ The aim of this project is to determine to what extent properties can be priorit
 </table>
 
 
-## Demo
-Here is a working live demo :  https://dsp-response-time-dashboard.herokuapp.com/
+## Web application
+The web application can be found on:  https://dsp-response-time-dashboard.herokuapp.com/ (currently not live)
