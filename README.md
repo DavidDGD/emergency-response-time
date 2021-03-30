@@ -4,7 +4,8 @@
 <table>
 <tr>
 <td>
-  A web application using property data to calculate the time fire emergency services need before the suppression of a fire can start. The dashboard can be used for prioritizing fire safety inspections in the municipality of Amsterdam based on this 'Intervention Time'.
+  A web application using property data to calculate the time fire emergency services need before the suppression of a fire can start. The calculated 'Intervention 
+  Times' are visualized in a dashboard, which in turn can be used for prioritizing fire safety inspections in the municipality of Amsterdam.
 </td>
 </tr>
 </table>
