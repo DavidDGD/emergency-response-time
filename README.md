@@ -1,6 +1,3 @@
-The aim of this project is to determine to what extent properties can be prioritized for fire inspection on the basis of the intervention time. In order to achieve this, a model and dashboard were developed for the City of Amsterdam to provide insight into the intervention times for all the non-residential properties in case of a fire incident. Intervention time is defined as the time between the ignition of a fire and the moment where suppression of the fire starts. To develop the dashboard, intervention time has been modelled as the aggregate of several components, starting with assigning non-residential properties to their respective fire station districts. The duration of travel time was calculated using a street network specialized for fire trucks based on OpenStreetMap (OSM), by recalculating speeds using a fire truck velocity profile and by including roads that are only used by emergency services to the net- work. Intervention time components preparation and setup times were derived from geometries of buildings or have been estimated using measured yearly averages. Intervention times have been cal- culated for 58.241 properties within Amsterdam. Addresses with critical intervention times, which are called critical properties, are marked red on the map in the dashboard. This allows users to identify the critical properties with only one glance at the map. Therefore, the dashboard can assist in the determination of which properties need to be inspected with priority.
-
-
 ![Dashboard](https://user-images.githubusercontent.com/51342082/113048770-303e0600-91a3-11eb-9324-4b74935b2c0d.png)
 
 # Dashboard
@@ -16,11 +13,11 @@ The aim of this project is to determine to what extent properties can be priorit
 ## Web Application
 The web application can be found on:  https://dsp-response-time-dashboard.herokuapp.com/ (currently not live)
 
-
 ### The Project Aims:
-- to determine to what extent properties can be prioritized for fire inspection on the basis of the intervention time
-- intervention time is defined as the time between the ignition of a fire and the moment where suppression of the fire starts
-- intervention time has been modelled as the aggregate of several components
-- generate discussions and new ideas around README development
-- draw more attention to docs and doc-writing
-- provide a safe, simple, fun gateway (or gateway drug?!) for non-devs to contribute to OSS
+- determine to what extent properties can be prioritized for fire inspection on the basis of the intervention time
+- intervention time is defined as the time between the ignition of a fire and the start of fire suppression, modelled as the aggregate of several components
+- each property is assigned to the fire station of their respective fire station district
+- a street network specialized for fire trucks on OpenStreetMap (OSM) is used
+- other used datasources are: i.a. Register for Topography, the KMNI API, the TomTom API
+- using OSMnx and NetworkX for the street network and the intervention time
+- properties with critical intervention times are marked red on the map in the dashboard
