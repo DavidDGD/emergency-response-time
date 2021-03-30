@@ -3,3 +3,12 @@ The aim of this project is to determine to what extent properties can be priorit
 ![dashboard_impression](https://user-images.githubusercontent.com/51342082/112936520-43f75700-9126-11eb-9e47-ccbbea3ac036.png)
 
 
+# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# WebApp
+<table>
+<tr>
+<td>
+  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+</td>
+</tr>
+</table>
