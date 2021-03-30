@@ -13,5 +13,14 @@ The aim of this project is to determine to what extent properties can be priorit
 </table>
 
 
-## Web application
+## Web Application
 The web application can be found on:  https://dsp-response-time-dashboard.herokuapp.com/ (currently not live)
+
+
+### The Project Aims:
+- to determine to what extent properties can be prioritized for fire inspection on the basis of the intervention time
+- intervention time is defined as the time between the ignition of a fire and the moment where suppression of the fire starts
+- intervention time has been modelled as the aggregate of several components
+- generate discussions and new ideas around README development
+- draw more attention to docs and doc-writing
+- provide a safe, simple, fun gateway (or gateway drug?!) for non-devs to contribute to OSS
