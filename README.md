@@ -11,7 +11,7 @@
 
 
 ## Web Application
-The web application can be found on:  https://dsp-response-time-dashboard.herokuapp.com/ (currently not live)
+The web application can be found on:  https://dsp-response-time-dashboard.herokuapp.com/ (currently offline)
 
 ### The Project Aims:
 - determine to what extent properties can be prioritized for fire inspection on the basis of the intervention time
